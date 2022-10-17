@@ -1,0 +1,18 @@
+<html>
+	<head>
+	 <title>Titulo web</title>
+	</head>
+	<body>
+		<h1>Titulo</h1>
+		<script>
+			var horas = 0;
+			var minutos = 0;
+			var segundos = 0;
+			segundos = prompt("Dime segundos")
+			minutos = prompt("Dime minutos")
+			horas = prompt("Dime horas")
+			var res = parseInt(segundos) + parseInt(minutos)*60 +parseInt(horas)*3600
+			alert ("El resultado es:"+res)
+		</script>
+	</body>
+</html>
